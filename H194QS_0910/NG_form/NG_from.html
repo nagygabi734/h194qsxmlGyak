@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: lightblue;
+  width: 600px;
+  border: 15px blue;
+  border-radius: 30px;
+  padding: 100px;
+}
+.button {
+  color: black;
+  text-align: center; 
+  font-size: 16px;
+}
+input{
+	height:20px;
+	width: 33%;
+}
+.slider {
+  width: 65%;
+  background: #d3d3d3;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<h1>HTML5 űrlap</h1>
+<div>
+<form action="feldolgozas.php" method="GET" target="_top">
+<h2>Név: <input type="text" name="nev" id="nev" placeholder="Ird be a neved"></h2>
+<h2>PIN kód: <input type="password" name="pinkod" id="pinkod" placeholder="Ird be a PIN kódot!"></h2>
+<h2>Kedvenc gyümölcs: <input  type="text" name="kedvencgyumolcs" id="kedvencgyumolcs" placeholder="Ird be a kedvenc gyümölcsöd"></h2>
+<h2>Életkor: <input  type="number" name="eletkor" id="eletkor" placeholder=""></h2>
+<h2>Lábméret: <input  type="number" name="labmeret" id="labmeret" placeholder=""></h2>
+<h2>Önbizalom: 0  <input type="range" name="onbizalom"  id="onbizalom" min="1" max="100" value="50" class="slider">  100</h2>
+<button class="button" name="elkuld" >Elküldöm!</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<button class="button" name="elelkuld" >Elküldöm ellenőrzés nélkül!</button>
+</form>
+</div>
+
+
+</body>
+</html>
