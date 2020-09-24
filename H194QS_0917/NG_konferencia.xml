@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE mozi SYSTEM "mozi.dtd"> -->
+<konferencia>
+	<cim id="nzk_4xm_2jb" cim="a"/>
+	<hallgatok>
+		<hallgato>
+			<nev id="" nev="Nagy Gabor"/>
+			<lakcim id="" lakcim="asd"/>
+		</hallgato>
+	</hallgatok >
+	<helyszin id="nzk_4xm" nev="b"/>
+	<eloado>
+		<nev id="" nev="Nagy Gabor"/>
+		<adoszam id="" adoszam=""/>
+		<lakcim id="" lakcim="asd"/>
+	</eloado>
+	<datum id="" datum=""/>
+</konferencia>

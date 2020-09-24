@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+	<ora id="1" tipus="1">
+		<targy>Szoftvertesztelés</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>8</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>IN103</helyszin>
+		<oktato>Tompa Tamás</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Mesterséges intelligencia</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>12</tol>
+			<ig>15</ig>
+		</idopont>
+		<helyszin>A1/305</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>WEB technológiák</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>15</tol>
+			<ig>17</ig>
+		</idopont>
+		<helyszin>IN/103</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>WEB technológiák</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>17</tol>
+			<ig>19</ig>
+		</idopont>
+		<helyszin>IN/15</helyszin>
+		<oktato>Dr. Kovács László</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Fizika II.</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>A1/105</helyszin>
+		<oktato>Dr. Phszota Gábor</oktato>
+		<szak>MI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>WEB-es alkalmazások</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>IN/103</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>XXXVII. ea.</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Mesterséges intelligencia</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>18</tol>
+			<ig>19</ig>
+		</idopont>
+		<helyszin>IN/15</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Integrált vállalati rendszerek</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>A1/319</helyszin>
+		<oktato>Dr. Samad Dadvandipour</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Integrált vállalati rendszerek</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>14</tol>
+			<ig>16</ig>
+		</idopont>
+		<helyszin>IN/15</helyszin>
+		<oktato>Dr. Bikfalvi Péter</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Testnevelés I.</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>Körcsarnok</helyszin>
+		<oktato>Dr. Fönyedi Gábor</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>WEB-es alkalmazások</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>10</tol>
+			<ig>12</ig>
+		</idopont>
+		<helyszin>IN/6</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>IN/103</helyszin>
+		<oktato>Dr. Bednarik László</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="1" tipus="1">
+		<targy>Fizika II.</targy>
+		<idopont>
+			<nap>Csütörtök</nap>
+			<tol>14</tol>
+			<ig>16</ig>
+		</idopont>
+		<helyszin>A1/317</helyszin>
+		<oktato>Dr. Paripás Béla</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+</orarend>

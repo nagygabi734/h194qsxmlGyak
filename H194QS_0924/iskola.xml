@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE iskola SYSTEM "iskola.dtd">
+<iskola>
+	<tanar id="t1">
+		<nev></nev>
+		<szak></szak>
+	</tanar>
+	<tanar id="t2">
+		<nev></nev>
+		<szak></szak>
+	</tanar>
+	<tantargy id="tt1" oktato="t2">
+		<tnev></tnev>
+		<osztaly></osztaly>
+	</tantargy>
+</iskola>
