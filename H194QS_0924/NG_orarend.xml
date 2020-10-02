@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE NG_orarend SYSTEM "orarend.dtd">
 <orarend>
-	<ora id="1" tipus="1">
+	<ora id="f1" tipus="előadás">
 		<targy>Szoftvertesztelés</targy>
 		<idopont>
 			<nap>Hétfő</nap>
 			<tol>8</tol>
+			<ig>10</ig>
+		</idopont>
+		<helyszin>IN103</helyszin>
+		<oktato>Tompa Tamás</oktato>
+		<szak>WEBMI</szak>
+	</ora>
+	<ora id="f2" tipus="gyakorlat">
+		<targy>Szoftvertesztelés</targy>
+		<idopont>
+			<nap>Hétfő</nap>
+			<tol>10</tol>
 			<ig>12</ig>
 		</idopont>
 		<helyszin>IN103</helyszin>
 		<oktato>Tompa Tamás</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f3" tipus="előadás">
 		<targy>Mesterséges intelligencia</targy>
 		<idopont>
 			<nap>Hétfő</nap>
@@ -23,7 +34,7 @@
 		<oktato>Dr. Dudás László</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f4" tipus="előadás">
 		<targy>WEB technológiák</targy>
 		<idopont>
 			<nap>Hétfő</nap>
@@ -34,7 +45,7 @@
 		<oktato>Agárdi Anita</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f5" tipus="gyakorlat">
 		<targy>WEB technológiák</targy>
 		<idopont>
 			<nap>Hétfő</nap>
@@ -45,7 +56,7 @@
 		<oktato>Dr. Kovács László</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f6" tipus="előadás">
 		<targy>Fizika II.</targy>
 		<idopont>
 			<nap>Kedd</nap>
@@ -56,7 +67,7 @@
 		<oktato>Dr. Phszota Gábor</oktato>
 		<szak>MI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f7" tipus="előadás">
 		<targy>WEB-es alkalmazások</targy>
 		<idopont>
 			<nap>Kedd</nap>
@@ -67,7 +78,7 @@
 		<oktato>Dr. Bednarik László</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f8" tipus="előadás">
 		<targy>Adatkezelés XML-ben</targy>
 		<idopont>
 			<nap>Kedd</nap>
@@ -78,7 +89,7 @@
 		<oktato>Dr. Bednarik László</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f9" tipus="előadás">
 		<targy>Mesterséges intelligencia</targy>
 		<idopont>
 			<nap>Kedd</nap>
@@ -89,7 +100,7 @@
 		<oktato>Dr. Dudás László</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f10" tipus="előadás">
 		<targy>Integrált vállalati rendszerek</targy>
 		<idopont>
 			<nap>Szerda</nap>
@@ -100,7 +111,7 @@
 		<oktato>Dr. Samad Dadvandipour</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f11" tipus="gyakorlat">
 		<targy>Integrált vállalati rendszerek</targy>
 		<idopont>
 			<nap>Szerda</nap>
@@ -111,7 +122,7 @@
 		<oktato>Dr. Bikfalvi Péter</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f12" tipus="előadás">
 		<targy>Testnevelés I.</targy>
 		<idopont>
 			<nap>Csütörtök</nap>
@@ -122,7 +133,7 @@
 		<oktato>Dr. Fönyedi Gábor</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f13" tipus="gyakorlat">
 		<targy>WEB-es alkalmazások</targy>
 		<idopont>
 			<nap>Csütörtök</nap>
@@ -133,7 +144,7 @@
 		<oktato>Dr. Bednarik László</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f14" tipus="gyakorlat">
 		<targy>Adatkezelés XML-ben</targy>
 		<idopont>
 			<nap>Csütörtök</nap>
@@ -144,7 +155,7 @@
 		<oktato>Dr. Bednarik László</oktato>
 		<szak>WEBMI</szak>
 	</ora>
-	<ora id="1" tipus="1">
+	<ora id="f15" tipus="gyakorlat">
 		<targy>Fizika II.</targy>
 		<idopont>
 			<nap>Csütörtök</nap>
