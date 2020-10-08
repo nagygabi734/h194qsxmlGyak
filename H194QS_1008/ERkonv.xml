@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ER>
+<ER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ERkonvSchema.xsd">
 	<Entity name="A">
 		<attribute name="a" value="primaryKey" />
 		<attribute name="b" value="multivalued">
@@ -13,7 +14,7 @@
 	</Entity>
 	<Entity name="B">
 		<attribute name="a" value="primaryKey" />
-		<attribute name="b" vaue="composit">
+		<attribute name="b" value="composit">
 			<attribute name="x" />
 			<attribute name="y" />
 		</attribute>
@@ -30,7 +31,6 @@
 			<card name="a" value="many" />
 			<card name="b" value="many" />
 		</cardinatlity>
-
 	</relation>
 
 	<relation>
