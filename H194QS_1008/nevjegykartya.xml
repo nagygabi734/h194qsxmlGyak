@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="nevjegykartya.xsd">
+	<nevjegykartya id="f1">
+		<nev>Nagy Gábor</nev>
+		<ceg>
+			<cim>
+				<iranyitoszam>4631</iranyitoszam>
+				<varos>Pap</varos>
+				<utca>Kossuth Lajos </utca>
+				<hazszam>218</hazszam>
+			</cim>
+			<nev>Nagy István</nev>
+			<telefonszam korzet="36">305785785</telefonszam>
+			<weblap>www.ceg.hu</weblap>
+		</ceg>
+		<beosztas>Boss</beosztas>
+		<telefonszam korzet="36">305795896</telefonszam>
+		<email>ceg@gmail.com</email>
+	</nevjegykartya>
+</nevjegykartyak>
