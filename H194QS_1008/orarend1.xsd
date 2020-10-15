@@ -4,7 +4,7 @@
 	<xsa:element name="orarend">
 		<xsa:complexType>
 			<xsa:sequence>
-				<xsa:element minOccurs="0" maxOccurs="unbounded" name="ora">
+				<xsa:element name="ora" minOccurs="0" maxOccurs="unbounded" >
 					<xsa:complexType>
 						<xsa:sequence>
 							<xsa:element name="targy" type="xsa:string" />
