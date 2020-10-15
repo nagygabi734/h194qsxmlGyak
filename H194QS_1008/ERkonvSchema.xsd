@@ -4,16 +4,13 @@
 	<xs:element name="ER">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="0" maxOccurs="unbounded"
-					name="Entity">
+				<xs:element name="Entity" minOccurs="0" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element minOccurs="0" maxOccurs="unbounded"
-								name="attribute">
+							<xs:element name="attribute" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element minOccurs="0" maxOccurs="unbounded"
-											name="attribute">
+										<xs:element name="attribute" minOccurs="0" maxOccurs="unbounded">
 											<xs:complexType>
 												<xs:simpleContent>
 													<xs:extension base="xs:string">
@@ -31,12 +28,10 @@
 						<xs:attribute name="name" type="xs:string" />
 					</xs:complexType>
 				</xs:element>
-				<xs:element minOccurs="0" maxOccurs="unbounded"
-					name="relation">
+				<xs:element name="relation" minOccurs="0" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element minOccurs="0" maxOccurs="unbounded"
-								name="attribute">
+							<xs:element name="attribute" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:simpleContent>
 										<xs:extension base="xs:string">
@@ -45,8 +40,7 @@
 									</xs:simpleContent>
 								</xs:complexType>
 							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="unbounded"
-								name="member">
+							<xs:element name="member" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:simpleContent>
 										<xs:extension base="xs:string">
@@ -55,12 +49,10 @@
 									</xs:simpleContent>
 								</xs:complexType>
 							</xs:element>
-							<xs:element minOccurs="0" maxOccurs="unbounded"
-								name="cardinatlity">
+							<xs:element name="cardinatlity" minOccurs="0" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element minOccurs="0" maxOccurs="unbounded"
-											name="card">
+										<xs:element name="card" minOccurs="0" maxOccurs="unbounded">
 											<xs:complexType>
 												<xs:simpleContent>
 													<xs:extension base="xs:string">

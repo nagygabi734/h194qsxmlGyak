@@ -5,10 +5,10 @@
 	<xs:element name="mozi">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="0" maxOccurs="unbounded" name="film">
+				<xs:element  name="film" minOccurs="0" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element minOccurs="0" maxOccurs="unbounded" name="rendezo">
+							<xs:element name="rendezo" minOccurs="0" maxOccurs="unbounded" >
 								<xs:complexType>
 									<xs:attribute name="id" type="xs:ID" />
 									<xs:attribute name="nev" type="xs:string" />
