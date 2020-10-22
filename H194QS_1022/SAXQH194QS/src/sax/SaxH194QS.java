@@ -20,17 +20,17 @@ public class SaxH194QS {
 				List<cats> cats = handler.getCatslist();
 				System.out.println("cats start");
 				for(int i=0; i<cats.size(); i++) {
-					System.out.println("	cat, {id:"+cats.get(i).getId()+"} start");
-					System.out.println("		name start");
-					System.out.println("			"+cats.get(i).getName());
-					System.out.println("		name end");
-					System.out.println("		age start");
-					System.out.println("			"+cats.get(i).getAge());
-					System.out.println("		age end");
-					System.out.println("		breed start");
-					System.out.println("			"+cats.get(i).getBreed());
-					System.out.println("		breed end");
-					System.out.println("	cat, {id:"+cats.get(i).getId()+"} end");
+					System.out.println("\t cat, {id:"+cats.get(i).getId()+"} start");
+					System.out.println("\t\t name start");
+					System.out.println("\t\t   "+cats.get(i).getName());
+					System.out.println("\t\t name end");
+					System.out.println("\t\t age start");
+					System.out.println("\t\t   "+cats.get(i).getAge());
+					System.out.println("\t\t age end");
+					System.out.println("\t\t breed start");
+					System.out.println("\t\t   "+cats.get(i).getBreed());
+					System.out.println("\t\t breed end");
+					System.out.println("\t cat, {id:"+cats.get(i).getId()+"} end");
 				}
 				System.out.println("cats end");
 			} catch (ParserConfigurationException | SAXException | IOException e) {
