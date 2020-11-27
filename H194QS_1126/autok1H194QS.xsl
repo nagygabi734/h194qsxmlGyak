@@ -10,7 +10,7 @@
                     <xsl:for-each select="autok/auto">
                         <xsl:sort select="ar" order="descending" />
                         <tr>
-                            <td><xsl:value-of select="ar" /></td>
+                            <td><li><xsl:value-of select="ar" /></li></td>
                             <td><xsl:value-of select="@rsz" /></td>
                         </tr>
                     </xsl:for-each>

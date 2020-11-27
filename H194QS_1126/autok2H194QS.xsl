@@ -3,9 +3,9 @@
     <xsl:template match="/">
         <html>
             <body>
-                <p>
+                <p1>
                     <xsl:value-of select="count(autok/auto[ar > 30000])"/>
-                </p>
+                </p1>
             </body>
         </html>
     </xsl:template>
