@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<alkalmazottak>
+		<alkalmazott alkalmazottid="a1" reszlegid="r1">
+			<alkalmazottnev>Koszos Károly</alkalmazottnev>
+			<telefonszam>06302658471</telefonszam>
+			<lakcim>
+				<iranyitoszam>4515</iranyitoszam>
+				<varos>Nincslaki</varos>
+				<ut>Kimondhatatlan</ut>
+				<hazszam>123</hazszam>
+			</lakcim>
+		</alkalmazott>
+		<alkalmazott alkalmazottid="a2" reszlegid="r1">
+			<alkalmazottnev>Sáros Sándor</alkalmazottnev>
+			<telefonszam>+36202658471</telefonszam>
+			<lakcim>
+				<iranyitoszam>4500</iranyitoszam>
+				<varos>Vanlaki</varos>
+				<ut>Kimondható</ut>
+				<hazszam>321</hazszam>
+			</lakcim>
+		</alkalmazott>
+		<alkalmazott alkalmazottid="a3" reszlegid="r2">
+			<alkalmazottnev>Sima Sándor</alkalmazottnev>
+			<telefonszam>06302648957</telefonszam>
+			<lakcim>
+				<iranyitoszam>4517</iranyitoszam>
+				<varos>Lehetlaki</varos>
+				<ut>Nemlaki</ut>
+				<hazszam>258</hazszam>
+			</lakcim>
+		</alkalmazott>
+		<alkalmazott alkalmazottid="a4" reszlegid="r2">
+			<alkalmazottnev>Kormos Károly</alkalmazottnev>
+			<telefonszam>06702658957</telefonszam>
+			<lakcim>
+				<iranyitoszam>2875</iranyitoszam>
+				<varos>Bűnös</varos>
+				<ut>Börtön</ut>
+				<hazszam>15</hazszam>
+			</lakcim>
+		</alkalmazott>
+	</alkalmazottak>
+	<apkapcsok>
+		<apkapcs alkalmazottid="a1" projektid="p1">
+			<munkaora>15</munkaora>
+		</apkapcs>
+		<apkapcs alkalmazottid="a2" projektid="p1">
+			<munkaora>50</munkaora>
+		</apkapcs>
+		<apkapcs alkalmazottid="a2" projektid="p2">
+			<munkaora>50</munkaora>
+		</apkapcs>
+		<apkapcs alkalmazottid="a3" projektid="p1">
+			<munkaora>157</munkaora>
+		</apkapcs>
+		<apkapcs alkalmazottid="a4" projektid="p2">
+			<munkaora>168</munkaora>
+		</apkapcs>
+	</apkapcsok>
+	<cegek>
+		<ceg cegid="c1">
+			<cegnev>Alma Kft.</cegnev>
+			<cegcim>
+				<iranyitoszam>8888</iranyitoszam>
+				<varos>Miskolc</varos>
+				<ut>Nemtudom</ut>
+				<hazszam>154</hazszam>
+			</cegcim>
+		</ceg>
+		<ceg cegid="c2">
+			<cegnev>Körte Kft.</cegnev>
+			<cegcim>
+				<iranyitoszam>1248</iranyitoszam>
+				<varos>Budapest</varos>
+				<ut>Kínos</ut>
+				<hazszam>258</hazszam>
+			</cegcim>
+		</ceg>
+	</cegek>
+	<ceg_tulajdonosok>
+		<ceg_tulajdonos cegid="c1">
+			<tulajdonos>Piros Alma</tulajdonos>
+		</ceg_tulajdonos>
+		<ceg_tulajdonos cegid="c1">
+			<tulajdonos>Zöld Alma</tulajdonos>
+		</ceg_tulajdonos>
+		<ceg_tulajdonos cegid="c2">
+			<tulajdonos>Zöld Körte</tulajdonos>
+		</ceg_tulajdonos>
+	</ceg_tulajdonosok>
+	<projektek>
+		<projekt projektid="p1">
+			<projektnev>Kettő forint</projektnev>
+			<projektfelelos>Koszos Károly</projektfelelos>
+			<hatarido>2020.10.15</hatarido>
+		</projekt>
+		<projekt projektid="p2">
+			<projektnev>Három forint</projektnev>
+			<projektfelelos>Sáros Sándor</projektfelelos>
+			<hatarido>2025.01.24</hatarido>
+		</projekt>
+	</projektek>
+	<reszlegek>
+		<reszleg reszlegid="r1" cegid="c1">
+			<reszlegnev>Préselő</reszlegnev>
+			<telephely>Miskolc</telephely>
+			<muszak>3</muszak>
+		</reszleg>
+		<reszleg reszlegid="r2" cegid="c2">
+			<reszlegnev>Préselő</reszlegnev>
+			<telephely>Budapest</telephely>
+			<muszak>1</muszak>
+		</reszleg>
+		<reszleg reszlegid="r3" cegid="c2">
+			<reszlegnev>Préselő</reszlegnev>
+			<telephely>Miskolc</telephely>
+			<muszak>2</muszak>
+		</reszleg>
+	</reszlegek>
+</root>
